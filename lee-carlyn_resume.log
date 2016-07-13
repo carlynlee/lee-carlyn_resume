@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 JUL 2016 11:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JUL 2016 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10,8 +10,8 @@ Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 Document Class: resume 2010/07/10 v0.9 Resume class
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -105,12 +105,12 @@ LaTeX Font Info:    ... okay on input line 30.
 * \topmargin=-65.90756pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -126,18 +126,16 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 30--30
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 50.
+(Font)              <7> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 50.
+(Font)              <5> on input line 50.
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--107
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
 
  []
 
@@ -146,20 +144,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--107
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./lee-carlyn_resume.aux) ) 
 Here is how much of TeX's memory you used:
- 872 strings out of 493089
- 11945 string characters out of 6134842
- 75289 words of memory out of 5000000
- 4401 multiletter control sequences out of 15000+600000
- 7639 words of font info for 27 fonts, out of 8000000 for 9000
+ 856 strings out of 493089
+ 11758 string characters out of 6134842
+ 75274 words of memory out of 5000000
+ 4391 multiletter control sequences out of 15000+600000
+ 4900 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,4n,21p,240b,198s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,4n,21p,350b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti10.pfb>
-Output written on lee-carlyn_resume.pdf (1 page, 75629 bytes).
+Output written on lee-carlyn_resume.pdf (1 page, 76605 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
