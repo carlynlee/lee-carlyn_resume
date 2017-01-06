@@ -1,0 +1,35 @@
+list of spacecrafts in relay and dedicated relay orbiter:
+	mro maven
+
+timeframe: 2030-2040
+manned and umanned
+
+mars relay 
+a/v + ltd
+science + ltd
+end to end latencies
+
+
+view periods
+bandwidth and storage
+
+
+bandwidth requirement for dsn to support
+
+scheduled
+user accessed (human asset)
+demand, user initiated
+
+
+curl -i -X POST -H 'Content-Type: application/json' -d '{"email": "sameer@playgolfstream.com", "password": "Password321", "redirect": "false"}' http://192.168.1.205:3000/api/login 
+
+
+$ curl -i -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.JTdCJTIyZW1haWwlMjI6JTIyc2FtZWVyQHBsYXlnb2xmc3RyZWFtLmNvbSUyMiwlMjJ1c2VybmFtZSUyMjolMjJzYW1lZXIlMjIsJTIybmFtZSUyMjolMjJTYW1lZXIlMjBHdXB0YSUyMiwlMjJlbnZveWlkJTIyOiUyMjAwMDAwMSUyMiwlMjJza2lsbCUyMjolMjJBZHZhbmNlZCUyMiwlMjJoYW5kZWRuZXNzJTIyOiUyMlJpZ2h0JTIwSGFuZGVkJTIyLCUyMl9pZCUyMjolMjI1NjFhYjM5YzI4OTcxNWI2NmUyZTk0MjElMjIsJTIyX192JTIyOjAsJTIycHJvdmlkZXIlMjI6JTIybG9jYWwlMjIsJTIycm9sZXMlMjI6JTVCJTIyYXV0aGVudGljYXRlZCUyMiU1RCU3RA.fWrTSJU1DZGPSDCdEUp215cB1784gW97o5yWO55Hb0s" -H "Accept: application/json" -H "Content-Type: application/json" -X GET 'http://localhost:3000/api/gameresults'
+
+
+
+Carlyns-MacBook-Pro:Pictures Carlyn$ curl -i -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.JTdCJTIyZW1haWwlMjI6JTIyc2FtZWVyQHBsYXlnb2xmc3RyZWFtLmNvbSUyMiwlMjJ1c2VybmFtZSUyMjolMjJzYW1lZXIlMjIsJTIybmFtZSUyMjolMjJTYW1lZXIlMjBHdXB0YSUyMiwlMjJlbnZveWlkJTIyOiUyMjAwMDAwMSUyMiwlMjJza2lsbCUyMjolMjJBZHZhbmNlZCUyMiwlMjJoYW5kZWRuZXNzJTIyOiUyMlJpZ2h0JTIwSGFuZGVkJTIyLCUyMl9pZCUyMjolMjI1NjFhYjM5YzI4OTcxNWI2NmUyZTk0MjElMjIsJTIyX192JTIyOjAsJTIycHJvdmlkZXIlMjI6JTIybG9jYWwlMjIsJTIycm9sZXMlMjI6JTVCJTIyYXV0aGVudGljYXRlZCUyMiU1RCU3RA.fWrTSJU1DZGPSDCdEUp215cB1784gW97o5yWO55Hb0s" -H "Accept: application/json" -H "Content-Type: application/json" -d '{"file":{"fieldName":"file","originalFilename":"P1020539.jpeg","path":"/Users/Carlyn/Pictures/P1020289.jpeg","headers":{"content-disposition":"form-data; name=\"file\"; filename=\"P1020539.jpeg\"","content-type":"image/jpeg"},"size":8641843,"name":"P1020539.jpeg","type":"image/jpeg"},"dest":"/photos/"}' localhost:3000/api/meanUpload/upload
+
+
+
+curl -F file=@/Users/Carlyn/Pictures/P1020290.jpeg
