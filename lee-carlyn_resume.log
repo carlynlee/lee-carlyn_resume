@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/MacPorts 2018.47642_8) (preloaded format=pdflatex 2018.12.30)  15 JAN 2019 05:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/MacPorts 2018.47642_8) (preloaded format=pdflatex 2018.12.30)  15 JAN 2019 06:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -158,7 +158,7 @@ ts/cm/cmbx12.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm
 /cmr10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb
 >
-Output written on lee-carlyn_resume.pdf (1 page, 76615 bytes).
+Output written on lee-carlyn_resume.pdf (1 page, 76600 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
