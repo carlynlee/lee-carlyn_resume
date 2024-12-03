@@ -1,0 +1,156 @@
+
+
+\documentclass{resume} % Use the custom resume.cls style
+
+%\usepackage[left=1.0in,top=1.0in,right=1.0in,bottom=1.0in]{geometry} % Document margins
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry} % Document margins
+
+\name{Carlyn Lee} %  name
+\address{626-419-6597 carlyn.lee@gmail.com} %  phone number and email
+\renewcommand{\nameskip}{\smallskip}
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+Software Engineer skilled in system reproducibility, visualization/monitoring tools, and data stores to scale and accelerate applications with high performance computing systems. Experienced in collaborating with interdisciplinary teams in designing and implementing complex algorithms and optimizing computing systems with a variety of tools: \it{C/C++, Python, Java, MATLAB, Visual Basic}
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+\begin{rSubsection}{Jet Propulsion Laboratory, California Institute of Technology}{August 2012 - November 2024}{Applications Software Engineer}{Pasadena, CA}
+
+
+\item {\bf{Verification \& Validation:}} Wrote test procedures for setting avionics flight software parameters from direct commands and uplinked files, and ran the tests on flight hardware using avionics and systems testbed. Developed scripts, software tools, scripts to aid in automation of executing test procedures.
+
+\item {\bf{Mission Operations:}} As Mars2020 engineering operations telecom chair, assessed health and status of telecom subsystems and relay links using data downlinked from rover. Architected data delivery systems for operator displays and developed intelligent interfaces to reduce rover operator response-time from several hours to requirement of 20 minutes. 
+
+\item {\bf{Supercomputing:}} Developed high fidelity az-el Lunar terrain mask algorithm to run on a massively parallel multiprocessor supercomputer. Using Lunar Orbiter Laser Altimeter data for resolutions down to 10m, enabled communications link coverage mapping for potential lunar landing sites. Parallelized Deep Space Optical Comm link channel coding simulations to enable signal and noise trade-space exploration achieving bit error rate 10e-8. 
+ 
+
+\item {\bf{Fieldwork:}} Communications support for collaborative multi-agent autonomy in maritime and subterranean environments. V\&V of software on networked Raspberry Pi’s and unmanned surface vehicles for collaborative operation of largest fleet of autonomous maritime vehicles. Radio mesh network trade studies in mining tunnel contributed to 1st place in DARPA’s Urban Circuit Subterranean Challenge. Ultra-wide band ROS integration to improve robot localization in GPS/comm deprived environments.
+
+
+\item {\bf{Tools Development:}} Implemented telecommunications forecast prediction tools for various deep space missions, including full web stack development for SaaS application. Developed network link models using spacecraft ephemeris and planetary events. UX development for scheduling telecom links. Developed and integrated comm link performance calculator and data volume modeling tools for use in Mars Relay Operations Service. Developed Link Complexity and Maintenance system from events \& trends from Sequence of Events files to enable the Deep Space Network to operate entire network during day shifts. Following a radio science operation role on Cassini Spacecraft, investigated atmospheric losses for 32GHz radio communications from data recorded on Deep Space Network open \& closed loop receivers. Modeling of communications traffic flow for human exploration of Mars \& Moon. Markov model for estimating bandwidth requirements in Deep Space Network simulations.
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Spectral Imaging Laboratory}{November 2011 - Present}{Consultant}{Pasadena, CA}
+\item Post-processing algorithm to correct for manufacturing inconsistencies in prototype of artificial compound eye.
+\item Application of super resolution algorithms to ray-traced simulations of images captured with artificial compound eyes. Using Matlab and openCV, improved resolution of images degraded with noise models.
+\item Modeling of visual acuity for multiple apertures on curved surface. Implementation of neural networks to improve angular resolution of a point light source. 
+\end{rSubsection}
+
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{California State University, Fullerton}{December 2009 - August 2012}{Research Assistant \& Intern}{Fullerton, CA}
+\item Designed and implemented framework to improve run-time efficiency \& accuracy of cancer detection using eigen decomposition of DNA microarray data with large feature set.
+\item Implemented framework to explore next generation sequencing alignment techniques for discovering binding sites in heat-shock proteins, integration of C/C++ self-organizing maps.
+\item Developed scheduling tool for library resources using .NET framework. C\# student web application, VB.NET admin configuration tool. Database design \& implementation using SQL Server \& stored procedures.
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	VOLUNTEER & PROFESSIONAL AFFILIATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{ Extracurricular, Volunteer \& Professional Affiliations}
+{\bf 2018 - Present} As a SoCal Linux Expo Volunteer helped set up infrastructure for on-site expo network and A\/V live stream recording for presentations\\
+{\bf 2014 - Present} Interplanetary Small Satellite Conference Committee Member\\
+{\bf 2016 - 2022} Caltech Alpine Club Website Administrator. \\
+{\bf 2019} Member of Duarte Ad Hoc Finance Advisory Committee, appointed by Duarte City Council. \\
+{\bf 2010 - 2012} Vice-President of Association for Computing Machinery, CSU Fullerton. 
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Certifications SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Certifications}
+
+%{\bf} Adult and Pediatric First Aid/CPR/AED, The American Red Cross (Certificate ID 00ISKSO).\\
+%{\bf} Technician Class Amateur Radio Operator. \\
+%{\bf} Private Pilot-ASEL +300hrs including instruction in PA28, C152, C172, CT210M.\\
+%\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf California State University, Fullerton}  \\ 
+M.S. Computer Science \hfill {\em August 2012}\\
+B.S. Computer Science, Minor in Mathematics  \hfill {\em July 2011}\\
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Publications}
+\item Vander Hook, J. V., Seto, W., Nguyen, V., Hasnain, Z., Lee, C.-A., Gallagher,
+L., Halpin-Chan, T., Varahamurthy, V., \& Angulo, M. (2022). Swarms of Pirates: Red Team Exercises Using
+Autonomous High-Speed Maneuvering Surface Vessels. Field Robotics, 2, 872–909.
+
+\item C. Lee, M. Shaikh, C.H. Lee and D. Michels. Lunar Terrain Coverage Analysis Data Delivery Workflow, AIAA 2021-4039. ASCEND 2021. November 2021.
+
+\item A. Agha et al.. NeBula: Quest for Robotic Autonomy in Challenging Environments; TEAM CoSTAR at the DARPA Subterranean Challenge. Journal of Field Robotics, 2021.
+
+\item C. Lee, H. Xie, C.H. Lee, D. Lyakhov, and D. Michels. In Silico Methods for Space System Analysis: Optical Link Coding Performance and Lunar Terrain Masks. In AIAA ASCEND, Las Vegas, NV, 16-18 Nov. 2020.
+
+\item D. Abraham, B. MacNeal, D. Heckman, Y. Chen, J. Wu, K. Tran, A. Kwok and C. Lee. Recommendations Emerging from an Analysis of NASA’s Deep Space Communications Capacity. In International Conference On Space Operations (SpaceOps 2018), Marseille, France, May 2018. 
+
+
+\item J. Lad, M. Johnston, D. Tran, D. Brown, K. Roffo, and C. Lee. Complexity-Based Link Assignment for NASA’s Deep Space Network for Follow-the-Sun Operations. In International Conference On Space Operations (SpaceOps 2018), Marseille, France, May 2018. 
+
+\item K. Pinover, M. Johnston, C. Lee. Optimizing SmallSat Scheduling for NASA’s Deep Space Network. In International Workshop on Planning and Scheduling for Space (IWPSS 2017). Pittsburgh, PA, June 2017. 
+
+
+\item D. Morabito, D. Kahan, K. Oudrhiri, and C. Lee. Cassini Downlink Ka-Band Carrier Signal Analysis. The Interplanetary Network Progress Report, Volume 42-208, February 15, 2017. 
+
+
+\item K. Cheung, D. Abraham, M. Sanchez-Net, K. Tran, C. Lee. Traffic modeling for Deep Space Network in the Human Exploration Era. In SpaceOps 2016 Conference, Daejeon, Korea, May 16-20, 2016.
+
+
+\item M. Johnston, C. Lee, C. Lau, K. Cheung, M. Levesque, B. Carruth, A. Coffman, M. Wallace. Integrating space communication network capabilities via web portal technologies. In SpaceOps 2014 13th International Conference on Space Operations, Pasadena, California, May 5-9, 2014. 
+
+
+\item C. Lee, C.H. Lee. Cancer Screening Using Multi-modal Differential Principal Orthogonal Decomposition. In 2013 13th International Conference on Computational Science and Its Applications, Ho Chi Minh City, Vietnam, June 24-27 2013.
+
+\item C. Lee, C.H. Lee. Extended Principal Orthogonal Decomposition Method for Cancer Screening. International Journal of Bioscience, Biochemistry and Bioinformatics vol. 2, no. 2, pp. 136-141, 2012.
+
+\item C. Lee. Rest architecture for link analysis tools portal. NASA Undergraduate Student Research Program (USRP), Pasadena, California, August 2011. 
+
+
+
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
