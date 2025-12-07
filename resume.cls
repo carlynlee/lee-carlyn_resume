@@ -100,6 +100,10 @@
   \hrule % Horizontal line
   \begin{list}{}{ % List for each individual item in the section
     \setlength{\leftmargin}{1.5em} % Margin within the section
+    \setlength{\itemsep}{0pt} % No extra space between items
+    \setlength{\parsep}{0pt} % No extra space between paragraphs in items
+    \setlength{\topsep}{0pt} % No extra space at top of list
+    \setlength{\partopsep}{0pt} % No extra space when list starts new page
   }
   \item[]
 }{
@@ -116,11 +120,15 @@
   \\
   {\em #3} \hfill {\em #4} % Italic job title and location
   }\smallskip
-  \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
-   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+  \begin{list}{$\cdot$}{\leftmargin=0em % \cdot used for bullets, no indentation
+   \setlength{\itemsep}{0pt} % No extra space between items
+   \setlength{\parsep}{0pt} % No extra space between paragraphs in items
+   \setlength{\topsep}{0pt} % No extra space at top of list
+   \setlength{\partopsep}{0pt} % No extra space when list starts new page
+  }
   }{
   \end{list}
-  \vspace{0.5em} % Some space after the list of bullet points
+  \vspace{0.3em} % Some space after the list of bullet points
 }
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
