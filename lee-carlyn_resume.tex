@@ -3,54 +3,51 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=1.0in,top=1.0in,right=1.0in,bottom=1.0in]{geometry} % Document margins
+\usepackage{setspace}
 
 \name{Carlyn Lee} %  name
 \address{626-419-6597 carlyn.lee@gmail.com} %  phone number and email
 \renewcommand{\nameskip}{\smallskip}
 \begin{document}
+\singlespacing
 
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
+\renewcommand{\sectionlineskip}{\vspace{-0.8em}}
 \begin{rSection}{}
-Accomplished Software Engineer specializing in architecting scalable solutions, pioneering system reproducibility strategies, and innovating advanced visualization tools for high-performance computing applications. Experienced in collaboration with interdisciplinary teams, designing complex algorithms, and optimizing computing systems with a variety of tools: 
-\it{C/C++, Python, Java, MATLAB, Visual Basic}
-
-
-
+Accomplished Software Engineer specializing in scalable solutions, system reproducibility, and advanced visualization tools for high-performance computing. Experienced in interdisciplinary collaboration, complex algorithms, and system optimization with: \it{C/C++, Python, Java, MATLAB, Ansys STK}
 \end{rSection}
+\renewcommand{\sectionlineskip}{\medskip}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Experience}
-\begin{rSubsection}{NASA Jet Propulsion Laboratory, California Institute of Technology}{Aug 2012 - Nov 2024}{Applications Software Engineer}{Pasadena, CA}
-
-
-\item {\bf{Tools Development:}}
-Built deep space mission development telecom simulation and modeling tools. Led and mentored remote interns contributing to mission-critical systems. Automated operations to enable three Deep Space Network ground antenna sites to manage the entire network during day shifts instead of operating 24\slash 7.
-
-
-\item {\bf{Mission Operations:}}
-As the Perseverance Rover telecom chair, responsible for the health and status of rover communications using data down-linked from Mars. Delivered tools reducing rover operation response-time from several hours to 20 minutes, exceeding requirements. 
-
-
-\item {\bf{Supercomputing:}} 
-Developed Lunar terrain mask algorithms for Shaheen II supercomputer, enabling 10m-resolution link coverage maps for lunar landing sites. Parallelized simulations for Deep Space Optical Communications, achieving bit error rate of 10e-8, a 1000x improvement over previous state-of-the-art, and enabling mission performance for VIPER. 
- 
-
-\item {\bf{Fieldwork:}} 
-Responsible for reliable multi-agent data transfer processes occurring at the transport layer. Conducted field testing of autonomous systems in maritime and subterranean environments, contributing to 1st place in DARPA’s Urban Circuit Challenge and the deployment of the largest ever fleet of autonomous maritime vehicles. 
-
-
-\item {\bf{Verification \& Validation:}} 
-Responsible for developing automated tools and test procedures for avionics flight software, and executing tests on flight hardware. 
-
-
+\begin{rSubsection}{Oligo Space}{Feb 2025 - Present}{Software Engineering}{}
+\item Leading the development of software tools leveraging advancements in AI to accelerate design and manufacturing processes of bespoke satellite buses based on customer payloads. Architected Zenith, an end-to-end spacecraft design automation framework connecting payload requirements to complete satellite configurations.
+\item Developed and prototyped automated pipelines for S- \& X-band link budget analysis, regulatory filings (FCC Part 25 / ITU Appendix B \& C), and integration with commercial ground-station networks.
+\item Integrated onboard telecommunications and networking components (SatCat5 FPGA switch, Arty A7-100T, Raspberry Pi-based data paths) for flight-software interfaces.
+\item Contributed to engineering team growth through candidate evaluation, technical assessment frameworks, and establishing onboarding programs with documentation standards and structured mentorship to accelerate new hire productivity.
 \end{rSubsection}
+
+\begin{rSubsection}{NASA Jet Propulsion Laboratory, California Institute of Technology}{Aug 2012 - Nov 2024}{Applications Software Engineer}{Pasadena, CA}
+\item {\bf{Tools Development:}}
+Built deep space mission telecom simulation and modeling tools. Led and mentored remote interns on mission-critical systems. Automated operations enabling three Deep Space Network sites to manage the network during day shifts instead of 24\slash 7.
+\item {\bf{Mission Operations:}}
+As the Perseverance Rover telecom chair, responsible for rover communications health using data from Mars. Delivered tools reducing operation response-time from several hours to 20 minutes.
+\item {\bf{Supercomputing:}} 
+Developed Lunar terrain mask algorithms for Shaheen II supercomputer, enabling 10m-resolution link coverage maps. Parallelized Deep Space Optical Communications simulations, achieving bit error rate of 10e-8, a 1000x improvement.
+\item {\bf{Fieldwork:}} 
+Developed reliable multi-agent data transfer processes at transport layer. Field tested autonomous systems in maritime and subterranean environments, contributing to 1st place in DARPA's Urban Circuit Challenge.
+\item {\bf{Verification \& Validation:}} 
+Developed automated tools and test procedures for avionics flight software, executing tests on flight hardware.
+\end{rSubsection}
+
+\end{rSection}
 
 %------------------------------------------------
 
@@ -75,11 +72,15 @@ Responsible for developing automated tools and test procedures for avionics flig
 %	VOLUNTEER & PROFESSIONAL AFFILIATIONS SECTION
 %----------------------------------------------------------------------------------------
 
+\renewcommand{\sectionskip}{\vspace{-0.3em}}
+\renewcommand{\sectionlineskip}{\smallskip}
 \begin{rSection}{ Extracurricular, Volunteer \& Professional Affiliations}
-	{\bf 2019 - Present} Supporting the Global Network Advancement (GNA-G) Data Intensive Sciences Working Group to enable high-throughput data transfers for Caltech, including a 10 Tbps link demonstration at the Nov 2024 Supercomputing Conference.\\
-{\bf 2018 - Present} SoCal Linux Expo Volunteer, deploying on-site network infrastructure and AV systems, repurposing legacy hardware to deliver free, open-source solutions for thousands of attendees and millions of Linux users.\\
-{\bf 2014 - Present} Interplanetary Small Satellite Conference committee member, managing budgets, website development, logistics, and vendor collaboration to host 100+ industry leaders advancing interplanetary satellite capabilities.\\
+\item {\bf 2019 - Present} Global Network Advancement (GNA-G) Data Intensive Sciences Working Group, enabling high-throughput data transfers for Caltech, SCinet demonstration at Supercomputing 24 \& 25.
+\item {\bf 2018 - Present} SoCal Linux Expo Volunteer, deploying on-site network infrastructure and AV systems.
+\item {\bf 2014 - Present} Interplanetary Small Satellite Conference committee member, managing budgets and logistics for 100+ industry leaders.
 \end{rSection}
+\renewcommand{\sectionskip}{\medskip}
+\renewcommand{\sectionlineskip}{\medskip}
 
 
 
@@ -97,19 +98,18 @@ Responsible for developing automated tools and test procedures for avionics flig
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
+\renewcommand{\sectionskip}{\vspace{-0.3em}}
 \begin{rSection}{Education}
-{\bf California State University, Fullerton}  \\ 
-M.S. Computer Science \hfill {\em August 2012}\\
-B.S. Computer Science, Minor in Mathematics  \hfill {\em July 2011}\\
-\\
-\\
+\item {\bf California State University, Fullerton} \\ M.S. Computer Science \hfill {\em August 2012} \\ B.S. Computer Science, Minor in Mathematics \hfill {\em July 2011}
 \end{rSection}
 %----------------------------------------------------------------------------------------
-%	PUBLICATIONS SECTION
+%	PUBLICATIONS AND PRESENTATIONS SECTION
 %----------------------------------------------------------------------------------------
 
+\newpage
 
-\begin{rSection}{Publications}
+\begin{rSection}{Publications and Presentations}
+\item C. Lee et al. Onboard AI and Federated Learning for Cosmic Ray Event Detection. Network Research Exhibition (NRE), SC25 Supercomputing Conference. St. Louis, MO, USA. November 2025.
 \item K. Cheung; V. Vilnrotter; M. Sanchez-Net; C. Lee. High Data Rates from the Outer Solar System. IEEE Aerospace Conference. Big Sky, MT, USA. March 2025. 
 
 
